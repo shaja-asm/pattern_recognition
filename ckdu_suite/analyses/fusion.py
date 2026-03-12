@@ -293,10 +293,10 @@ def _global_rank_fusion(
     )
 
     out["fusion_contribution_score"] = (
-        0.25 * out["selector_rank_norm"]
-        + 0.35 * out["perm_rank_norm"]
-        + 0.35 * out["shap_rank_norm"]
-        + 0.05 * out["selected_for_raw_branch"]
+        0.35 * out["selector_rank_norm"]
+        + 0.20 * out["perm_rank_norm"]
+        + 0.20 * out["shap_rank_norm"]
+        + 0.25 * out["selected_for_raw_branch"]
     )
     out["legacy_alias"] = [REVERSE_F_ALIAS_MAP.get(f, "") for f in out["feature"]]
     return out.sort_values("fusion_contribution_score", ascending=False).reset_index(drop=True)
