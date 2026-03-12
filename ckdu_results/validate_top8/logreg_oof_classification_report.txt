@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+        CKDu      0.922     0.922     0.922        77
+          EC      0.986     0.986     0.986        74
+         NEC      0.833     0.714     0.769        84
+        ECKD      0.875     0.875     0.875        48
+       NECKD      0.833     0.952     0.889        84
+
+    accuracy                          0.888       367
+   macro avg      0.890     0.890     0.888       367
+weighted avg      0.888     0.888     0.886       367

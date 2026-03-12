@@ -1,0 +1,39 @@
+{
+  "selected_raw_features": [
+    "K",
+    "V",
+    "Ca",
+    "Ba",
+    "Al",
+    "In",
+    "Hg",
+    "Sr"
+  ],
+  "selected_raw_features_alias": [
+    "F3",
+    "F8",
+    "F4",
+    "F25",
+    "F7",
+    "F23",
+    "F26",
+    "F20"
+  ],
+  "forced_raw_features": [
+    "K",
+    "V",
+    "Ca",
+    "Ba",
+    "Al",
+    "In",
+    "Hg",
+    "Sr"
+  ],
+  "n_pca_components": 12,
+  "pca_variance_threshold": 0.95,
+  "model_weights": {
+    "LDA_PCA": 0.3374396205822037,
+    "LogReg_PCAplusRaw": 0.33873549390374463,
+    "MLP_PCAplusRaw": 0.3238248855140517
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "top_features": [
+    "K",
+    "V",
+    "Ca",
+    "Ba",
+    "Al",
+    "In",
+    "Hg",
+    "Sr"
+  ],
+  "top_features_alias": [
+    "F3",
+    "F8",
+    "F4",
+    "F25",
+    "F7",
+    "F23",
+    "F26",
+    "F20"
+  ],
+  "preproc_kind": "robust",
+  "n_splits": 5,
+  "perm_repeats": 10
+}

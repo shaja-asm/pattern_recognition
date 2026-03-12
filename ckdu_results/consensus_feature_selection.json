@@ -1,0 +1,25 @@
+{
+  "selection_mode": "frequency_consensus_from_previous_analyses",
+  "consensus_top_features": [
+    "K",
+    "V",
+    "Ca",
+    "Ba",
+    "Al",
+    "In",
+    "Hg",
+    "Sr"
+  ],
+  "consensus_top_features_alias": [
+    "F3",
+    "F8",
+    "F4",
+    "F25",
+    "F7",
+    "F23",
+    "F26",
+    "F20"
+  ],
+  "consensus_top_k": 8,
+  "consensus_source_top_n": 8
+}
